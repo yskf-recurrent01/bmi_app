@@ -62,7 +62,7 @@ calcBtn.addEventListener('click', () => {
     } else if (bmi < 25) {
         judgeResultText = '普通体重';
     } else {
-        judgeResultText = '肥満';
+        judgeResultText = '肥満です';
     }
     // 3. 判定結果を画面に表示
     judgeResult.innerText = judgeResultText;
